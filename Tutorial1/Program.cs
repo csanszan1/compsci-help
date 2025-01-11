@@ -12,3 +12,4 @@ while (reader.Read())
     var username = reader.GetString(1);
     Console.WriteLine(username);
 }
+connection.Close();
